@@ -40,7 +40,7 @@ docker run -d \
   --volume /var/lib/feedbin:/data \
   --device /dev/fuse \
   --stop-signal SIGRTMIN+3 \
-  ghcr.io/ntkme/feedbin:edge
+  ghcr.io/iskycc/feedbin:edge
 ```
 
 #### Grant Admin Access
