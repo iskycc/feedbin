@@ -96,6 +96,7 @@ $1 {
     path */users*
   }
   #respond @signup 403
+  respond /password_resets/* 403
 }
 
 api.$1 {
