@@ -24,7 +24,7 @@ sudo podman run -d \
   --publish 443:443/tcp \
   --volume /sys/fs/cgroup:/sys/fs/cgroup:ro \
   --volume /var/lib/feedbin:/data \
-  ghcr.io/ntkme/feedbin:edge
+  ghcr.io/iskycc/feedbin:edge
 ```
 
 ###### With `docker`
